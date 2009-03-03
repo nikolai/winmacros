@@ -4,9 +4,12 @@ cls
 @set JUDE_PATH="%HOME_PATH%\jude"
 @set DIFF_PATH="%HOME_PATH%\Araxis Merge v6.5\"
 @set FAR_PATH="%HOME_PATH%\Far"
-@set path=%path%;"C:\Program Files\Notepad++\";%DIFF_PATH%;%FAR_PATH%
+@set NPPP_PATH="D:\Program Files\Notepad++\"
+@set path=%path%;%NPPP_PATH%;%DIFF_PATH%;%FAR_PATH%
 
 @doskey diff=Merge.exe $*
+@doskey jude=jude.exe $*
+@doskey h=cd /d %HOME_PATH%
 @doskey netstata=netstat -b -o
 @doskey n=notepad $*
 @doskey c=cls
