@@ -23,4 +23,5 @@ cls
 @doskey pgrep=TASKLIST /FI "IMAGENAME eq $**"
 @doskey ps=TASKLIST$T
 
+@prompt $t$h$h$h $p$g
 @color 02
